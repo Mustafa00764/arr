@@ -1,7 +1,6 @@
 import React from 'react'
 import "./home.css"
 import title_underline from "../../assets/svg/title-underline.svg"
-import main_banner_vector from "../../assets/images/main-banner-vector.webp"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper/modules";
 import img from "../../assets/images/img.webp"
