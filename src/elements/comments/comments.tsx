@@ -2,7 +2,11 @@ import React from 'react'
 import "./comments.css"
 import { useTranslation } from "react-i18next";
 import "../../i18n";
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/grid';
+import 'swiper/css/pagination';
+import { Grid } from 'swiper/modules';
 const Comments: React.FC = () => {
     const { t } = useTranslation();
     
@@ -39,14 +43,33 @@ const Comments: React.FC = () => {
         },
 
     ]
+
     return (
         <div className='comments'>
             <div className="container">
                 <div className='comments_container'>
+                    <Swiper
+                        slidesPerView={1}
+                        grid={{
+                        rows: 1,
+                        }}
+                        loop
+                        spaceBetween={30}
+                        modules={[Grid]}
+                        className="mySwiper"
+                        breakpoints={{
+                            701: {
+                                slidesPerView: 3,
+                                grid: {rows: 2},
+                                spaceBetween: 40
+                            },
+                        }}
+                    >
                     {
                         comments.map((item,index)=>{
                             return(
-                                <div className='comment_card' key={index}>
+                                <SwiperSlide key={index} className='swiper_ch'>
+                                <div className='comment_card' >
                                     <img src={item.img} alt="" className='comment_card_img'/>
                                     <div className='comment_card_info'>
                                         <p className='comment_card_title'>{item.title}</p>
@@ -57,9 +80,11 @@ const Comments: React.FC = () => {
                                         </div>
                                     </div>
                                 </div>
+                                </SwiperSlide>
                             )
                         })
                     }
+                    </Swiper>
                 </div>
             </div>
         </div>

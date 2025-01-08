@@ -119,3 +119,40 @@
     font-weight: 500;
     line-height: 150%;
 }
+
+@media (max-width: 700px) {
+
+    .footer{
+        margin-top: 70px;
+    }
+
+    .footer_top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .footer_bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer_logo{
+        height: 50px;
+        width: 130px;
+    }
+
+    .footer_bottom_info{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_top_1{
+        display: flex;
+        align-items: center;
+    }
+}

@@ -23,6 +23,7 @@ const ServicesPage: React.FC = () => {
                     <img src={image} alt="image" />
                     <div className='services_section_one_text'>
                         <h1>{t("services.sectionOne.title")}</h1>
+                        <img src={image} alt="image" className='services_img'/>
                         <p>{t("services.sectionOne.text")}</p>
                         <button className='services_section_one_btn'>{t("services.button")}</button>
                     </div>
@@ -34,6 +35,7 @@ const ServicesPage: React.FC = () => {
                 <div className="services_container">
                     <div className='services_section_two_text'>
                         <h1>{t("services.sectionTwo.title")}</h1>
+                        <img src={image} alt="image" className='services_img'/>
                         <p>{t("services.sectionTwo.text")}</p>
                         <button className='services_section_two_btn'>{t("services.button")}</button>
                     </div>
@@ -47,6 +49,7 @@ const ServicesPage: React.FC = () => {
                     <img src={image} alt="image" />
                     <div className='services_section_three_text'>
                         <h1>{t("services.sectionThree.title")}</h1>
+                        <img src={image} alt="image" className='services_img'/>
                         <p>{t("services.sectionThree.text")}</p>
                         <button className='services_section_three_btn'>{t("services.button")}</button>
                     </div>
@@ -58,6 +61,7 @@ const ServicesPage: React.FC = () => {
                 <div className="services_container">
                     <div className='services_section_four_text'>
                         <h1>{t("services.sectionFour.title")}</h1>
+                        <img src={image} alt="image" className='services_img'/>
                         <p>{t("services.sectionFour.text")}</p>
                         <button className='services_section_four_btn'>{t("services.button")}</button>
                     </div>
@@ -71,6 +75,7 @@ const ServicesPage: React.FC = () => {
                     <img src={image} alt="image" />
                     <div className='services_section_five_text'>
                         <h1>{t("services.sectionFive.title")}</h1>
+                        <img src={image} alt="image" className='services_img'/>
                         <p>{t("services.sectionFive.text")}</p>
                         <button className='services_section_five_btn'>{t("services.button")}</button>
                     </div>

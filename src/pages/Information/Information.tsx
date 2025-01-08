@@ -223,6 +223,7 @@ const InformationPage: React.FC = () => {
         <div className='informtion'>
             <div className="container">
                 <div className="informtion_container">
+                    
                     <div className='informtion_logo'>
                         <img src={card.icon} alt="" />
                     </div>

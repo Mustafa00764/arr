@@ -33,6 +33,17 @@ const FormSection: React.FC = () => {
                         <button className='form_btn'>{t("formElement.form.button")}</button>
                     </div>
                 </form>
+                <div className='form_title2'>
+                    <h2 className='form_section_text'>{t("formElement.text")}</h2>
+                    <div className='form_section_phone'>
+                        <div className='form_section_phone_icon'>
+                            <div className='form_section_phone_btn'>
+                                <img src={phone} alt="phone" />
+                            </div>
+                        </div>
+                        <h1 className='form_section_number'>+998 78 555 70 17</h1>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

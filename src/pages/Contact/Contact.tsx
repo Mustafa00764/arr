@@ -9,8 +9,8 @@ const ContactPage: React.FC = () => {
     const { t } = useTranslation();
 
     const containerStyle = {
-        width: "405px", 
-        height: "255px", 
+        width: "100%", 
+        height: "200px", 
         borderRadius: "48px", 
         overflow: "hidden",
     };

@@ -194,6 +194,7 @@ const PortfolioPage: React.FC = () => {
                                 <div className='portfolio_card'>
                                     <div className='portfolio_card_icon'>
                                         <img src={item.icon} alt="icon" />
+                                        <img src={item.image} alt="image" className='portfolio_card_img'/>
                                     </div>
                                     <div className='portfolio_card_main'>
                                         <div className='portfolio_card_text'>

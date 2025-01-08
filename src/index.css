@@ -9,6 +9,11 @@
   font-family: "Roboto";
 }
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 0px;
+}
+
 :root{
   --text-color: #292d33;
   --title-color: #002b4e;

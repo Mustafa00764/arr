@@ -160,3 +160,116 @@
 .services_form_section{
     padding: 70px 0 0 0;
 }
+
+.services_img{
+    display: none;
+}
+
+@media (max-width: 700px) {
+
+    .services{
+        padding: 73px 0 0 0;
+    }
+
+    .services_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_container{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_container>img{
+        display: none;
+    }
+
+    .services_img{
+        display: flex;
+        height: 236px;
+    }
+
+    .services_section_one{
+        padding: 50px 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .services_section_one_text h1{
+        font-size: 22px;
+    }
+
+    .services_section_one_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_section_two{
+        padding: 50px 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .services_section_two_text h1{
+        font-size: 22px;
+    }
+
+    .services_section_two_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_section_three{
+        padding: 50px 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .services_section_three_text h1{
+        font-size: 22px;
+    }
+
+    .services_section_three_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_section_four{
+        padding: 50px 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .services_section_four_text h1{
+        font-size: 22px;
+    }
+
+    .services_section_four_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_section_five{
+        padding: 50px 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .services_section_five_text h1{
+        font-size: 22px;
+    }
+
+    .services_section_five_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

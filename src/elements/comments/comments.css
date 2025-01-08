@@ -3,16 +3,20 @@
     padding: 0 60px;
 }
 
-.comments_container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 40px;
+.mySwiper{
+    height: 760px;
+}
+
+.swiper_ch{
+    height: 100%;
 }
 
 .comment_card{
     position: relative;
     display: flex;
     justify-content: center;
+    height: auto;
+    align-items: center;
 }
 
 .comment_card_info{
@@ -21,8 +25,9 @@
     padding: 70px 33px 30px;
     margin-top: 40px;
     /* z-index: -1; */
-    /* height: 326px; */
     width: 100%;
+    max-height: 315px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,6 +43,7 @@
     display: block;
     border-radius: 80px;
     border: 8px solid #fff;
+    top: 0;
 }
 
 .comment_card_title{
@@ -71,4 +77,17 @@
 .stars{
     display: flex;
     gap: 4px;
+    bottom: 15px;
+}
+
+@media (max-width: 700px) {
+    .comments{
+        padding: 0 20px;
+    }
+
+    .mySwiper{
+        height: auto;
+    }
+
+
 }

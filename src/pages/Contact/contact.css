@@ -135,3 +135,34 @@
 .contact_info_map{
     padding-top: 25px;
 }
+
+@media (max-width: 700px) {
+
+    .contact{
+        height: auto;
+        padding: 95px 20px 0;
+    }
+
+    .contact_container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact_form_btn{
+        margin-top: 40px;
+    }
+
+    .contact_form{
+        width: 262px;
+    }
+
+    .contact_info{
+        padding-top: 60px;
+        display: flex;
+        max-width: 310px;
+        flex-direction: column;
+    }
+}

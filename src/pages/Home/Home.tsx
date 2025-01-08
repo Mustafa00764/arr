@@ -206,8 +206,9 @@ const HomePage: React.FC = () => {
                         effect="coverflow" 
                         grabCursor={true} 
                         centeredSlides={true} 
-                        slidesPerView={3} 
+                        slidesPerView={1} 
                         loop
+                        spaceBetween= {40}
                         speed={1000}
                         autoplay={{
                           delay: 4000, 
@@ -217,17 +218,30 @@ const HomePage: React.FC = () => {
                         coverflowEffect={{
                           rotate: 0, // Поворот слайдов
                           stretch: 0, // Растяжение
-                          depth: 200, // Глубина эффекта
-                          modifier: 2, // Модификатор эффекта
+                          depth: 0, // Глубина эффекта
+                          modifier: 0, // Модификатор эффекта
                           slideShadows: false, // Тени слайдов
                         }}
-                        className="portfolio-section__swiper" 
+                        breakpoints={{
+                            701: {
+                                coverflowEffect:{
+                                    rotate: 0, // Поворот слайдов
+                                    stretch: 0, // Растяжение
+                                    depth: 200, // Глубина эффекта
+                                    modifier: 2, // Модификатор эффекта
+                                    slideShadows: false, // Тени слайдов
+                                  },
+                                slidesPerView: 3 
+                            },
+                        }}
+                        className="section_swiper" 
                     >
                        {slides.map((slide, index) => (
                             <SwiperSlide key={index}>
                                 <div className='slider_card'>
                                     <div className='slider_card_logo'>
                                         <img src={slide.icon} alt="icon" />
+                                        <img src={slide.image} alt="image" className='slider_card_logo_img'/>
                                     </div>
                                     <div className='slider_card_main'>
                                         <div className='slider_card_text'>
@@ -252,7 +266,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className='section_four'>
             <div className="container">
-                <div className=''>
+                <div className='section_four_container'>
                     <p className="section_four_name">{t("homePage.sectionFour.name")}</p>
                     <img src={title_underline} alt="title_underline" />
                 </div>
@@ -275,7 +289,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className='section_five'>
             <div className="container">
-                <div className=''>
+                <div className='section_five_container'>
                     <p className="section_five_name">{t("homePage.sectionFive.name")}</p>
                     <img src={title_underline} alt="title_underline" />
                 </div>
@@ -349,7 +363,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className='section_seven'>
             <div className="container">
-                <div className=''>
+                <div className='section_seven_container'>
                     <p className="section_seven_name">{t("homePage.sectionSeven.name")}</p>
                     <img src={title_underline} alt="title_underline" />
                 </div>

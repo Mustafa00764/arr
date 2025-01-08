@@ -6,10 +6,13 @@ import { useTranslation } from "react-i18next";
 import { Button, Menu, MenuItem } from "@mui/material";
 import TranslateIcon from "@mui/icons-material/Translate";
 import "../../i18n";
+import menu from "../../assets/svg/menu.svg"
 const Header: React.FC = () => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
     const [language, setLanguage] = useState<string>("en"); // Текущий язык
     const { i18n,t } = useTranslation();
+    const [menus, setMenus] = useState<boolean>(false)
+    const lan = ["en","ru","uz"]
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
         setAnchorEl(event.currentTarget);
     };
@@ -29,8 +32,29 @@ const Header: React.FC = () => {
     },[])
   return (
     <div className='header'>
+        <div className={menus?"menu":"menu_close"}>
+            <NavLink onClick={()=>setMenus(false)} to={"/"} className={"link"} style={({ isActive }) => ({color: isActive ? 'var(--text-gradient)' : '', })}>
+                {t("header.nav.home")}
+            </NavLink>
+            <NavLink onClick={()=>setMenus(false)} to={"/portfolio"} className={"link"} style={({ isActive }) => ({color: isActive ? 'var(--text-gradient)' : '', })}>
+                {t("header.nav.portfolio")}
+            </NavLink>
+            <a onClick={()=>setMenus(false)} href="/#our-company" className="link">
+                {t("header.nav.aboutUs")}
+            </a>
+            <NavLink onClick={()=>setMenus(false)} to={"/services"} className={"link"} style={({ isActive }) => ({color: isActive ? 'var(--text-gradient)' : '', })}>
+                {t("header.nav.services")}
+            </NavLink>
+            <NavLink onClick={()=>setMenus(false)} to={"/contact"} className={"link"} style={({ isActive }) => ({color: isActive ? 'var(--text-gradient)' : '', })}>
+                {t("header.nav.contacts")}
+            </NavLink>
+            <button onClick={()=>setMenus(false)} className="menu_btn">{t("header.button")}</button>
+        </div>
         <div className='container'>
             <div className='header_container'>
+                <div className="header_menu" onClick={()=>setMenus(!menus)}>
+                    <img src={menu} alt="" />
+                </div>
                 <div>
                     <img src={logo_text} alt="" className='header_logo'/>
                 </div>
@@ -94,9 +118,15 @@ const Header: React.FC = () => {
                                     },
                                   }}
                             >
-                                <MenuItem onClick={() => handleClose("en")}>EN</MenuItem>
-                                <MenuItem onClick={() => handleClose("ru")}>RU</MenuItem>
-                                <MenuItem onClick={() => handleClose("uz")}>UZ</MenuItem>
+                                {
+                                    lan.map((item,index)=>{
+                                        if (item != language) {
+                                            return (
+                                                <MenuItem key={index} onClick={() => handleClose(item)}>{item.toLocaleUpperCase()}</MenuItem>
+                                            )
+                                        }
+                                    })
+                                }
                             </Menu>
                         </div>
                     </div>
