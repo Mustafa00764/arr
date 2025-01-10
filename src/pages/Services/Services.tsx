@@ -6,6 +6,7 @@ import FormSection from '../../elements/form/form'
 import Comments from '../../elements/comments/comments'
 import { useTranslation } from "react-i18next";
 import "../../i18n";
+import Services from '../../elements/services/services'
 const ServicesPage: React.FC = () => {
     const { t } = useTranslation();
     
@@ -87,6 +88,9 @@ const ServicesPage: React.FC = () => {
         </div>
         <div className='services_form_section'>
             <FormSection/>
+        </div>
+        <div>
+            <Services/>
         </div>
     </div>
   )

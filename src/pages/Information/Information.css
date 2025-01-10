@@ -39,6 +39,10 @@
     font-size: 26px;
 }
 
+.sectionOne_title img{
+    width: auto;
+}
+
 .sectionOne_category{
     margin-top: 24px;
     display: flex;

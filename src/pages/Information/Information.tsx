@@ -214,10 +214,12 @@ const InformationPage: React.FC = () => {
     useEffect(()=> {
         const interval = setInterval(() => {
             setCard(cards[Number(id)-1])
+            console.log(1);
+            
           }, 1000);
       
           return () => clearInterval(interval);
-    },[card])
+    },[card,t])
 
     return (
         <div className='informtion'>

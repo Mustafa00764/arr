@@ -145,28 +145,28 @@
     "comments": {
         "cardOne": {
             "name": "Jasur Meliboyev",
-            "profession": "Media Manager 'Gossluzhba UZ'",
-            "text": "Thanks to the creative approach, efficiency, and responsibility of the Dynamic Soft team, our service sales market has significantly expanded. We trust and value our partnership with Dynamic Soft for their individual approach to clients."
+            "profession": "Frontend Developer",
+            "text": "Our team's frontend development specialist. A leader in creating modern and user-friendly interfaces. His excellent knowledge of HTML, CSS, and JavaScript brings new life to every project."
         },
         "cardTwo": {
-            "name": "Ozodbek Kholturaev",
-            "profession": "COO - 'Iysar' LLC",
-            "text": "DYNAMIC SOFT has become our most reliable IT partner. We appreciated the team's flexibility and their ability to quickly solve various problems!"
+            "name": "Ozodbek Xolturayev",
+            "profession": "Backend Developer",
+            "text": "A paragon of professionalism in backend development. Ensures high security and stability on the server side in our team. Possesses extensive experience in databases and API integration."
         },
         "cardThree": {
             "name": "Dilfuza Mirzanasirovna",
-            "profession": "CEO - 'YuniyGeniy'",
-            "text": "With the 'SKS LMS' system developed by the DYNAMIC SOFT team, we solved many business problems in 2 years. Over 500 users utilized the system, and all our business issues were successfully addressed!"
+            "profession": "Telegram Bot Developer",
+            "text": "A specialist in developing Telegram bots. Offers solutions ranging from simple automation to complex systems. Responsible for our team's innovative chatbot solutions."
         },
         "cardFour": {
             "name": "Abdullaev Jamshid",
-            "profession": "Founder of the FenixPro project.",
-            "text": "We contacted the DYNAMIC SOFT team to set up an email system and streamline our business. The team quickly and efficiently offered the solution we needed. As a result, we saved time and simplified our workflows."
+            "profession": "UI/UX Designer",
+            "text": "A creative leader in design. Deeply understands user needs and creates intuitive and attractive interfaces. His designs add uniqueness to every project."
         },
         "cardFive": {
             "name": "Yusuf Alimjonov",
-            "profession": "Head of Connect Entertainment Company",
-            "text": "For our media company Connect Entertainment, the DYNAMIC SOFT team created a modern and functional website. They took our wishes into account, delivered the work on time, with high quality and a creative approach. We recommend them!"
+            "profession": "Graphic Designer",
+            "text": "A master of visual content and brand identity. Strives for perfection in creating logos, banners, and marketing materials. Helps enrich every project aesthetically."
         }
     },
     "footer": {

@@ -145,28 +145,28 @@
     "comments": {
         "cardOne": {
             "name": "Jasur Meliboyev",
-            "profession": "Media manager “Gosslujba UZ”",
-            "text": "Dynamic Soft jamoasining ijodiy yondashuvi, samaradorligi va mas'uliyati tufayli xizmatlarni sotish bozorimiz sezilarli darajada kengaydi. Biz mijozlarga individual yondashish uchun Dynamic Soft bilan hamkorlikni ishonamiz va qadrlaymiz."
+            "profession": "Frontend Dasturchisi",
+            "text": "Jamoamizning Frontend rivojlantirish bo'yicha mutaxassisi. Zamonaviy va foydalanuvchiga qulay interfeyslarni yaratishda yetakchi o'rinni egallaydi. Uning HTML, CSS va JavaScript bo'yicha mukammal bilimlari har bir loyihaga yangi nafas bag'ishlaydi."
         },
         "cardTwo": {
             "name": "Ozodbek Xolturayev",
-            "profession": "COO - 'Iysar' LLC",
-            "text": "DYNAMIC SOFT bizning eng ishonchli IT hamkorimizga aylandi. Ushbu kompaniya bilan ishlashda bizga yoqqan narsa jamoaning moslashuvchanligi va turli muammolarni tezda hal qilish qobiliyati edi!)"
+            "profession": "Backend Dasturchisi",
+            "text": "Backend rivojlantirish sohasida professionallik namunasi. Jamoamizda server tomonida yuqori xavfsizlik va mustahkamlikni ta'minlaydi. Ma'lumotlar bazalari va API integratsiyasi bo'yicha keng tajribaga ega."
         },
         "cardThree": {
             "name": "Dilfuza Mirzanasirovna",
-            "profession": "CEO - “YuniyGeniy”",
-            "text": "DYNAMIC SOFT jamoasi tomonidan yaratilgan 'SKS LMS' tizimi bilan biznesimizdagi ko'p muammolarni 2 yilda hal qildik. 500 dan ortiq foydalanuvchi tizimdan foydalandi va bizning barcha biznes muammolarimiz muvaffaqiyatli yechildi!"
+            "profession": "Telegram Bot Dasturchisi",
+            "text": "Telegram botlarni ishlab chiqishda ixtisoslashgan mutaxassis. Oddiy avtomatlashtirishdan tortib murakkab tizimlargacha bo'lgan yechimlarni taklif etadi. Jamoamizning chatbotlar bo'yicha innovatsion yechimlariga mas'ul."
         },
         "cardFour": {
             "name": "Abdullaev Jamshid",
-            "profession": "FenixPro loyihasi asoschisi.",
-            "text": "Biz DYNAMIC SOFT jamoasiga e-post tizimini o‘rnatish va tijoratimizni tizimlashish bo‘yicha murojaat qilgan edi. Jamoa tez va samarali tarzda bizga kerakli yechimni taklif qilishdi. Natijada, vaqtimizni tejab, ishlarimiz ancha osonlashdi."
+            "profession": "UI/UX Dizayner",
+            "text": "Dizayn sohasidagi ijodiy yetakchi. Foydalanuvchilarning ehtiyojlarini chuqur tushunib, intuitiv va jozibador interfeyslar yaratadi. Uning dizaynlari har bir loyihaga o'ziga xoslik qo'shadi."
         },
         "cardFive": {
             "name": "Yusuf Alimjonov",
-            "profession": "Connect Entertainment kompanyasi rahbari",
-            "text": "Connect Entertainment media kompaniyamiz uchun DYNAMIC SOFT jamoasi zamonaviy va funksional veb-sayt yaratdi. Ular bizning istaklarimizni inobatga olib, saytni sifatli, o‘z vaqtida va kreativ yondashuv bilan ishlab chiqishdi. Sizga ham tavsiya qilamiz."
+            "profession": "Grafik Dizayner",
+            "text": "Vizual kontent va brend identifikatsiyasi ustasi. Logotiplar, bannerlar va marketing materiallarini yaratishda mukammallikka intiladi. U har bir loyihani estetik jihatdan boyitishga yordam beradi."
         }
     },
     "footer": {
