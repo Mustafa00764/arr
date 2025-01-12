@@ -58,7 +58,7 @@ const InformationPage: React.FC = () => {
         {
           id: 3,
           title: t("informationPage.name"),
-          description: t("informationPage.text1"),
+          description: t("informationPage.text3"),
           category: "E-commerce",
           icon: icon,
           image: img10,

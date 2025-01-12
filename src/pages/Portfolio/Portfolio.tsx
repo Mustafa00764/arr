@@ -45,7 +45,7 @@ const PortfolioPage: React.FC = () => {
         {
           id: 1,
           title: "Education",
-          description: t("portfolioPage.portfolioCard.text"),
+          description: t("portfolioPage.portfolioCard.text1"),
           image: img1,
           img1: img5,
           img2: img6,
@@ -55,7 +55,7 @@ const PortfolioPage: React.FC = () => {
         {
             id: 2,
             title: "Education",
-            description: t("portfolioPage.portfolioCard.text"),
+            description: t("portfolioPage.portfolioCard.text2"),
             image: img8,
             img1: img2,
             img2: img3,
@@ -65,7 +65,7 @@ const PortfolioPage: React.FC = () => {
         {
           id: 3,
           title: "ERP",
-          description: t("portfolioPage.portfolioCard.text"),
+          description: t("portfolioPage.portfolioCard.text3"),
           image: img10,
           img1: img9,
           img2: "",
