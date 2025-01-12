@@ -196,7 +196,9 @@
     "portfolioPage": {
         "name": "Loyihalar",
         "portfolioCard": {
-            "text": "Dynamic Soft, O'zbekistonning yetakchi fast food kompaniyasi Feed Up uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning...",
+            "text1": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Feed Up uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
+            "text2": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Tsukiyomi uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
+            "text3": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Elithouse uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
             "button": "Batafsil"
         }
     },
