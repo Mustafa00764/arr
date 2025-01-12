@@ -92,6 +92,7 @@ const PortfolioPage: React.FC = () => {
                         })
                     }
                 </div>
+                
                 <div className='portfolio_cards'>
                     {
                         cards.map((item)=>{
