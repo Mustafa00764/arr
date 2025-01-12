@@ -99,6 +99,7 @@ const InformationPage: React.FC = () => {
                             <p>{card.description}</p>
                         </div>
                     </div>
+                    
                     <div className="sectionTwo">
                         <h1>{t("informationPage.sectionOne.name")}</h1>
                         <img src={title_underline} alt="" />
