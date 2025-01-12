@@ -3,6 +3,18 @@ import "./portfolio.css"
 import title_underline from "../../assets/svg/title-underline.svg"
 import img from "../../assets/images/img.webp"
 import icon from "../../assets/images/icon.webp"
+
+import img1 from "../../assets/images/img1.png"
+import img2 from "../../assets/images/img2.png"
+import img3 from "../../assets/images/img3.png"
+import img4 from "../../assets/images/img4.png"
+import img5 from "../../assets/images/img5.png"
+import img6 from "../../assets/images/img6.png"
+import img7 from "../../assets/images/img7.png"
+import img8 from "../../assets/images/img8.png"
+import img9 from "../../assets/images/img9.png"
+import img10 from "../../assets/images/img10.png"
+
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 import { Link } from 'react-router-dom'
@@ -35,138 +47,33 @@ const PortfolioPage: React.FC = () => {
           id: 1,
           title: "Education",
           description: t("portfolioPage.portfolioCard.text"),
-          image: img,
+          image: img1,
+          img1: img5,
+          img2: img6,
+          img3: img7,
           icon: icon,
         },
         {
             id: 2,
             title: "Education",
             description: t("portfolioPage.portfolioCard.text"),
-            image: img,
+            image: img8,
+            img1: img2,
+            img2: img3,
+            img3: img4,
             icon: icon,
         },
         {
           id: 3,
           title: "ERP",
           description: t("portfolioPage.portfolioCard.text"),
-          image: img,
+          image: img10,
+          img1: img9,
+          img2: "",
+          img3: "",
           icon: icon,
         },
-        {
-          id: 4,
-          title: "Extra",
-          description: t("portfolioPage.portfolioCard.text"),
-          image: img,
-          icon: icon,
-        },
-        {
-            id: 5,
-            title: "Business",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
 
-        },
-        {
-          id: 6,
-            title: "ERP",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-
-        },
-        {
-          id: 7,
-
-            title: "Extra",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-
-        },
-        {
-          id: 8,
-            title: "Extra",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-        },
-        {
-          id: 9,
-
-            title: "Education",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-          },
-          {
-          id: 10,
-            title: "Business",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-          },
-          {
-            id: 11,
-            title: "ERP",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-          },
-          {
-          id: 12,
-            title: "Extra",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-          },
-          {
-          id: 13,
-
-              title: "Business",
-              description: t("portfolioPage.portfolioCard.text"),
-              image: img,
-              icon: icon,
-  
-          },
-          {
-          id: 14,
-              title: "ERP",
-              description: t("portfolioPage.portfolioCard.text"),
-              image: img,
-              icon: icon,
-  
-          },
-          {
-          id: 15,
-              title: "Extra",
-              description: t("portfolioPage.portfolioCard.text"),
-              image: img,
-              icon: icon,
-  
-        },
-        {
-              id: 16,
-              title: "Extra",
-              description: t("portfolioPage.portfolioCard.text"),
-              image: img,
-              icon: icon,
-        },
-        {
-            id: 17,
-            title: "Extra",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-
-        },
-        {
-            id: 18,
-            title: "Extra",
-            description: t("portfolioPage.portfolioCard.text"),
-            image: img,
-            icon: icon,
-        },
     ];
 
   return (
@@ -201,7 +108,7 @@ const PortfolioPage: React.FC = () => {
                                             <button>{item.title}</button>
                                             <p>{item.description}</p>
                                         </div>
-                                        <img src={item.image} alt="image" />
+                                        <img src={item.image} alt="" />
                                     </div>
                                     <div className='portfolio_card_btns'>
                                         <button className='portfolio_card_btn'>{t("portfolioPage.portfolioCard.button")}</button>

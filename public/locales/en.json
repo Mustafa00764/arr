@@ -231,7 +231,8 @@
     },
     "informationPage": {
         "name": "ABOUT THE PROJECT",
-        "text": "Dynamic Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, Feed Up, enhancing customer experience and operational efficiency.",
+        "text1": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, Feed Up, enhancing customer experience and operational efficiency.",
+        "text2": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, Tsukiyomi, enhancing customer experience and operational efficiency.",
         "sectionOne": {
             "name": "OUR PROCESS",
             "card1": {
@@ -240,19 +241,19 @@
             },
             "card2": {
                 "title": "stage",
-                "text": "Design"
+                "text": "Development"
             },
             "card3": {
                 "title": "stage",
-                "text": "Design"
+                "text": "Testing"
             },
             "card4": {
                 "title": "stage",
-                "text": "Design"
+                "text": "Launch"
             },
             "card5": {
                 "title": "stage",
-                "text": "Design"
+                "text": "Maintenance"
             }
         },
         "sectionThree": {

@@ -5,6 +5,7 @@
 
 .informtion_container{
     margin-top: 38px;
+    max-width: 1440px;
     margin-bottom: 100px;
     padding-left: 250px;
     padding-right: 208px;
@@ -22,7 +23,7 @@
 }
 
 .sectionOne img {
-    max-width: 512px;
+    max-width: 300px;
     width: 100%;
 }
 
@@ -120,8 +121,28 @@
 }
 
 .informtion_img{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+
+.informtion_img2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+
+.informtion_img img{
+    max-width: 100%;
+    flex: auto;
+}
+
+.img_none{
+    display: none;
 }
 
 .sectionThree{
@@ -219,6 +240,11 @@
     .sectionTwo_card{
         width: 286px;
         text-align: start;
+    }
+
+    .informtion_img{
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 50px;
     }
 
     .sectionThree_tags{

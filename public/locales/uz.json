@@ -230,7 +230,9 @@
     },
     "informationPage": {
         "name": "LOYIHA HAQIDA",
-        "text": "Dynamic Soft, O'zbekistonning yetakchi fast food kompaniyasi Feed Up uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
+        "text1": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Feed Up uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
+        "text2": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Tsukiyomi uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
+
         "sectionOne": {
             "name": "BIZNING JARAYON",
             "card1": {
@@ -239,19 +241,19 @@
             },
             "card2": {
                 "title": "bosqich",
-                "text": "Dizayn"
+                "text": "Ishlab chiqish"
             },
             "card3": {
                 "title": "bosqich",
-                "text": "Dizayn"
+                "text": "Sinov"
             },
             "card4": {
                 "title": "bosqich",
-                "text": "Dizayn"
+                "text": "Ishga tushirish"
             },
             "card5": {
                 "title": "bosqich",
-                "text": "Dizayn"
+                "text": "Texnik xizmat"
             }
         },
         "sectionThree": {
