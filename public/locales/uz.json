@@ -99,27 +99,27 @@
             "name": "Bizning qadriyatlar",
             "cardOne": {
                 "title": "Shaffoflik",
-                "text": "Dynamic-da biz maqsadlarimiz va qarashlarimizni aniq baham ko'ramiz. Bu bizga mijozlarimiz va jamoamiz bilan ishonchni mustahkamlashga yordam beradi!"
+                "text": "Ardent - bu ochiqlik va ishonch tamoyillariga asoslangan kompaniya. Biz mijozlarimiz va hamkorlarimiz bilan halollik asosida ishlaymiz, bu esa kuchli hamkorlik va uzoq muddatli ishonchni mustahkamlashga yordam beradi."
             },
             "cardTwo": {
                 "title": "Tezlik",
-                "text": "Biz tezlik va sifatni qadrlaymiz. Biz moliyalashtiriladigan startaplar bilan ishlayotganimiz sababli, mijozlarimizga loyihalarni sifatli ishlab chiqish orqali raqobatchilardan ustun kelishlariga yordam beramiz."
+                "text": "Vaqt – eng qimmatli resurs! Ardent jamoasi loyihalarni o‘z vaqtida va mukammal darajada bajarish orqali mijozlarimizni yuksak natijalarga olib chiqadi. Tezkor va sifatli xizmat – bizning yutug‘imizning asosi!"
             },
             "cardThree": {
                 "title": "Innovatsiya",
-                "text": "Loyihalarimizda eng yangi texnologiyalardan foydalanamiz. Innovatsiyalar to'xtamaydi, biz ham to'xtamaymiz."
+                "text": "Biz har doim kelajakni yaratishga intilamiz. Ardent jamoasi texnologik yangiliklarni amaliyotga joriy etib, mijozlarimizning ehtiyojlarini ortiqcha va cheklanmas yondashuv bilan qondiradi."
             },
             "cardFour": {
                 "title": "Sinchkovlik",
-                "text": "Har bir loyiha noyobdir va biz doimo uni rivojlantirishning yangi usullarini izlaymiz. Shuning uchun biz har doim yangi echimlarni topish uchun ovdamiz."
+                "text": "Har bir loyiha biz uchun san'at asaridek ahamiyatli. Ardent jamoasi eng mayda tafsilotlargacha e’tiborli bo‘lib, har bir loyiha uchun noyob va samarali yechimlarni taklif qiladi."
             },
             "cardFive": {
                 "title": "Qiyinchilik",
-                "text": "Boshqa kompaniyalardan farqli o'laroq, biz qiyinchiliklarni yaxshi ko'ramiz. Oxir oqibat, Dynamic mavjud bo'lgan narsa."
+                "text": "Qiyinchilik – bu biz uchun yangi imkoniyat. Ardent o‘zining ijodiy va strategik yondashuvi bilan eng murakkab masalalarni hal qilib, mijozlarimiz uchun imkoniyatlar doirasini kengaytiradi."
             },
             "cardSix": {
                 "title": "O'sish",
-                "text": "Mijozlarimiz bilan ishlaganimizda, biz ularning g‘oyasini haqiqatga aylantirishga harakat qilamiz. Ularga o‘z mahsulotlarini ishlab chiqishda yordam berish va kerak bo‘lganda ularga rahbarlik qilish."
+                "text": "Bizning missiyamiz – mijozlarimizning maqsadlarini haqiqatga aylantirish. Ardent nafaqat ularning o‘sishini qo‘llab-quvvatlaydi, balki bu yo‘lda ularga ishonchli hamkor bo‘lib xizmat qiladi. Birgalikda har bir g‘oya – ulkan yutuqqa aylanadi!"
             }
         }
     },
@@ -167,6 +167,11 @@
             "name": "Yusuf Alimjonov",
             "profession": "Grafik Dizayner",
             "text": "Vizual kontent va brend identifikatsiyasi ustasi. Logotiplar, bannerlar va marketing materiallarini yaratishda mukammallikka intiladi. U har bir loyihani estetik jihatdan boyitishga yordam beradi."
+        },
+        "cardSix": {
+            "name": "Jasur Meliboyev",
+            "profession": "Frontend Dasturchi",
+            "text": "Jamoamizning frontend dasturlash bo'yicha mutaxassisi. Zamonaviy va foydalanuvchilar uchun qulay interfeyslarni yaratish bo'yicha yetakchi. HTML, CSS va JavaScript bo'yicha chuqur bilimlari har bir loyihaga yangicha ruh bag'ishlaydi."
         }
     },
     "footer": {

@@ -99,28 +99,29 @@
             "name": "Our Values",
             "cardOne": {
                 "title": "Transparency",
-                "text": "At Dynamic, we openly share our goals and vision. This fosters trust with both clients and the team!"
+                "text": "Ardent is a company founded on the principles of openness and trust. We work with our clients and partners based on honesty, which helps strengthen strong partnerships and long-term trust."
             },
             "cardTwo": {
-                "title": "Efficiency",
-                "text": "We value speed and quality. Partnering with well-funded startups, we help clients surpass competitors with high-quality project development."
+                "title": "Speed",
+                "text": "Time is the most valuable resource! The Ardent team helps our clients achieve outstanding results by completing projects on time and at the highest level. Fast and high-quality service is the foundation of our success!"
             },
             "cardThree": {
                 "title": "Innovation",
-                "text": "We leverage the latest technologies in our projects. Innovation is continuous, and so are we."
+                "text": "We are always striving to create the future. The Ardent team implements technological innovations in practice, meeting the needs of our clients with an unconventional and unlimited approach."
             },
             "cardFour": {
-                "title": "Attention to Detail",
-                "text": "Every project is unique, and we always seek ways to improve. We continuously explore new solutions."
+                "title": "Thoroughness",
+                "text": "Every project is as important to us as a piece of art. The Ardent team pays attention to even the smallest details and offers unique and effective solutions for every project."
             },
             "cardFive": {
                 "title": "Challenges",
-                "text": "Unlike other companies, we embrace challenges. Ultimately, dynamic growth drives us forward."
+                "text": "Challenges are new opportunities for us. Ardent solves the most complex problems with a creative and strategic approach, expanding the horizons of possibilities for our clients."
             },
             "cardSix": {
                 "title": "Growth",
-                "text": "Collaborating with clients, we bring their ideas to life, help grow their products, and guide them along the way."
+                "text": "Our mission is to turn our clients' goals into reality. Ardent not only supports their growth but also serves as a reliable partner along the way. Together, every idea becomes a great achievement!"
             }
+
         }
     },
     "formElement": {
@@ -167,6 +168,11 @@
             "name": "Yusuf Alimjonov",
             "profession": "Graphic Designer",
             "text": "A master of visual content and brand identity. Strives for perfection in creating logos, banners, and marketing materials. Helps enrich every project aesthetically."
+        },
+        "cardSix": {
+            "name": "Jasur Meliboyev",
+            "profession": "Frontend Developer",
+            "text": "Our team's frontend development specialist. A leader in creating modern and user-friendly interfaces. His excellent knowledge of HTML, CSS, and JavaScript brings new life to every project."
         }
     },
     "footer": {

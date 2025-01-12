@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
+<g id="EOS_PACKAGES_FILLED">
+<path id="Vector" d="M22.545 6.76123H4.54498V9.01123H8.47123H22.545V6.76123Z" fill="url(#paint0_linear_173_1115)"/>
+<path id="Vector_2" d="M20.2725 2.26123H6.76123V4.51123H9.70873H20.2725V2.26123Z" fill="url(#paint1_linear_173_1115)"/>
+<path id="Vector_3" d="M2.25 11.25V13.5H4.5V22.5C4.5 23.0967 4.73705 23.669 5.15901 24.091C5.58097 24.5129 6.15326 24.75 6.75 24.75H20.25C20.8467 24.75 21.419 24.5129 21.841 24.091C22.2629 23.669 22.5 23.0967 22.5 22.5V13.5H24.75V11.25H2.25ZM12.375 21.375H6.75V19.125H12.375V21.375Z" fill="url(#paint2_linear_173_1115)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_173_1115" x1="13.545" y1="6.76123" x2="13.545" y2="9.01123" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2E77AE"/>
+<stop offset="1" stop-color="#0D2137"/>
+</linearGradient>
+<linearGradient id="paint1_linear_173_1115" x1="13.5169" y1="2.26123" x2="13.5169" y2="4.51123" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2E77AE"/>
+<stop offset="1" stop-color="#0D2137"/>
+</linearGradient>
+<linearGradient id="paint2_linear_173_1115" x1="13.5" y1="11.25" x2="13.5" y2="24.75" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2E77AE"/>
+<stop offset="1" stop-color="#0D2137"/>
+</linearGradient>
+</defs>
+</svg>

@@ -11,6 +11,13 @@ import script from "../../assets/svg/script.svg"
 import startaps from "../../assets/svg/startaps.svg"
 import tg_bot from "../../assets/svg/tg-bot.svg"
 import web_dev from "../../assets/svg/web-dev.svg"
+
+import curiosity_logo from "../../assets/svg/curiosity_logo.svg"
+import challang_logo from "../../assets/svg/challang_logo.svg"
+import growth_logo from "../../assets/svg/growth_logo.svg"
+import innovation_logo from "../../assets/svg/innovation_logo.svg"
+import speed_logo from "../../assets/svg/speed_logo.svg"
+import transparency_logo from "../../assets/svg/transparency_logo.svg"
 import { useTranslation } from "react-i18next";
 // Стили Swiper
 import "../../i18n";
@@ -116,32 +123,32 @@ const HomePage: React.FC = () => {
 
     const ourValues = [
         {
-            icon: web_dev,
+            icon: transparency_logo,
             title: t("homePage.sectionSeven.cardOne.title"),
             text: t("homePage.sectionSeven.cardOne.text"),
         },
         {
-            icon: script,
+            icon: speed_logo,
             title: t("homePage.sectionSeven.cardTwo.title"),
             text: t("homePage.sectionSeven.cardTwo.text"),
         },
         {
-            icon: mobile_app,
+            icon: innovation_logo,
             title: t("homePage.sectionSeven.cardThree.title"),
             text: t("homePage.sectionSeven.cardThree.text"),
         },
         {
-            icon: design,
+            icon: curiosity_logo,
             title: t("homePage.sectionSeven.cardFour.title"),
             text: t("homePage.sectionSeven.cardFour.text"),
         },
         {
-            icon: startaps,
+            icon: challang_logo,
             title: t("homePage.sectionSeven.cardFive.title"),
             text: t("homePage.sectionSeven.cardFive.text"),
         },
         {
-            icon: tg_bot,
+            icon: growth_logo,
             title: t("homePage.sectionSeven.cardSix.title"),
             text: t("homePage.sectionSeven.cardSix.text"),
         },

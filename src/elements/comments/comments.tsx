@@ -41,6 +41,12 @@ const Comments: React.FC = () => {
             text1: t("comments.cardFive.profession"),
             text2: t("comments.cardFive.text"),
         },
+        {
+            img: "https://dynamicsoft.uz/_next/image?url=https%3A%2F%2Fapi.dynamicsoft.uz%2Fv1%2Ffile%2Freviews%2Fimage-b57dd472-cd3a-419f-85fd-a5786b23944f.jpeg&w=96&q=75",
+            title: t("comments.cardSix.name"),
+            text1: t("comments.cardSix.profession"),
+            text2: t("comments.cardSix.text"),
+        },
 
     ]
 
