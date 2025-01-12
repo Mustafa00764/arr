@@ -1,7 +1,6 @@
 import React from 'react'
 import "./portfolio.css"
 import title_underline from "../../assets/svg/title-underline.svg"
-import img from "../../assets/images/img.webp"
 import icon from "../../assets/images/icon.webp"
 
 import img1 from "../../assets/images/img1.png"

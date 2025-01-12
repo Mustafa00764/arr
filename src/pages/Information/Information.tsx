@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import img from "../../assets/images/img.webp"
 import icon from "../../assets/images/icon.webp"
 import { useTranslation } from "react-i18next";
 import "../../i18n";
@@ -101,7 +100,7 @@ const InformationPage: React.FC = () => {
                     </div>
 
                     <div className="sectionTwo">
-                        
+
                         <h1>{t("informationPage.sectionOne.name")}</h1>
                         <img src={title_underline} alt="" />
                         <div className='sectionTwo_cards'>
