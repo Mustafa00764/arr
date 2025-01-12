@@ -12,7 +12,7 @@ import img6 from "../../assets/images/img6.png"
 import img7 from "../../assets/images/img7.png"
 import img8 from "../../assets/images/img8.png"
 import img9 from "../../assets/images/img9.png"
-import img10 from "../../assets/images/img10.png"
+import img11 from "../../assets/images/img11.png"
 
 import { useTranslation } from "react-i18next";
 import "../../i18n";
@@ -66,7 +66,7 @@ const PortfolioPage: React.FC = () => {
           id: 3,
           title: "ERP",
           description: t("portfolioPage.portfolioCard.text3"),
-          image: img10,
+          image: img11,
           img1: img9,
           img2: "",
           img3: "",
@@ -92,7 +92,7 @@ const PortfolioPage: React.FC = () => {
                         })
                     }
                 </div>
-                
+
                 <div className='portfolio_cards'>
                     {
                         cards.map((item)=>{

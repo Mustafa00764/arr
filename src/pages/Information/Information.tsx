@@ -12,7 +12,7 @@ import img6 from "../../assets/images/img6.png"
 import img7 from "../../assets/images/img7.png"
 import img8 from "../../assets/images/img8.png"
 import img9 from "../../assets/images/img9.png"
-import img10 from "../../assets/images/img10.png"
+import img11 from "../../assets/images/img11.png"
 import title_underline from "../../assets/svg/title-underline.svg"
 import { useParams } from 'react-router-dom'
 interface Card {
@@ -61,7 +61,7 @@ const InformationPage: React.FC = () => {
           description: t("informationPage.text3"),
           category: "E-commerce",
           icon: icon,
-          image: img10,
+          image: img11,
           img1: img9,
           img2: "",
           img3: "",
