@@ -13,7 +13,7 @@ import mustafa from "../../assets/images/mustafa.jpg"
 
 import 'swiper/css/grid';
 import 'swiper/css/pagination';
-import { Grid } from 'swiper/modules';
+import { Grid, Autoplay} from 'swiper/modules';
 const Comments: React.FC = () => {
     const { t } = useTranslation();
     
@@ -68,7 +68,13 @@ const Comments: React.FC = () => {
                         }}
                         loop
                         spaceBetween={30}
-                        modules={[Grid]}
+                        modules={[Grid,Autoplay]}
+                        speed={1000}
+                        autoplay={{
+                          delay: 4000, 
+                          disableOnInteraction: false, 
+                          waitForTransition: true,
+                        }}
                         className="mySwiper"
                         breakpoints={{
                             701: {
