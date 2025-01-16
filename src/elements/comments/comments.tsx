@@ -4,6 +4,12 @@ import { useTranslation } from "react-i18next";
 import "../../i18n";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import azizbek from "../../assets/images/Azizbrek.jpg"
+import jamshid from "../../assets/images/Jamshid.jpg"
+import muhammad from "../../assets/images/muhammad.jpg"
+import temur from "../../assets/images/temur.jpg"
+import backend from "../../assets/images/backend.jpg"
+
 import 'swiper/css/grid';
 import 'swiper/css/pagination';
 import { Grid } from 'swiper/modules';
@@ -12,40 +18,40 @@ const Comments: React.FC = () => {
     
     const comments = [
         {
-            img: "https://dynamicsoft.uz/_next/image?url=https%3A%2F%2Fapi.dynamicsoft.uz%2Fv1%2Ffile%2Freviews%2Fimage-b57dd472-cd3a-419f-85fd-a5786b23944f.jpeg&w=96&q=75",
+            img: muhammad,
             title: t("comments.cardOne.name"),
             text1: t("comments.cardOne.profession"),
             text2: t("comments.cardOne.text"),
         },
         {
             img: "https://dynamicsoft.uz/_next/image?url=https%3A%2F%2Fapi.dynamicsoft.uz%2Fv1%2Ffile%2Freviews%2Fimage-b57dd472-cd3a-419f-85fd-a5786b23944f.jpeg&w=96&q=75",
+            title: t("comments.cardSix.name"),
+            text1: t("comments.cardSix.profession"),
+            text2: t("comments.cardSix.text"),
+        },
+        {
+            img: backend,
             title: t("comments.cardTwo.name"),
             text1: t("comments.cardTwo.profession"),
             text2: t("comments.cardTwo.text"),
         },
         {
-            img: "https://dynamicsoft.uz/_next/image?url=https%3A%2F%2Fapi.dynamicsoft.uz%2Fv1%2Ffile%2Freviews%2Fimage-b57dd472-cd3a-419f-85fd-a5786b23944f.jpeg&w=96&q=75",
+            img: azizbek,
             title: t("comments.cardThree.name"),
             text1: t("comments.cardThree.profession"),
             text2: t("comments.cardThree.text"),
         },
         {
-            img: "https://dynamicsoft.uz/_next/image?url=https%3A%2F%2Fapi.dynamicsoft.uz%2Fv1%2Ffile%2Freviews%2Fimage-b57dd472-cd3a-419f-85fd-a5786b23944f.jpeg&w=96&q=75",
+            img: jamshid,
             title: t("comments.cardFour.name"),
             text1: t("comments.cardFour.profession"),
             text2: t("comments.cardFour.text"),
         },
         {
-            img: "https://dynamicsoft.uz/_next/image?url=https%3A%2F%2Fapi.dynamicsoft.uz%2Fv1%2Ffile%2Freviews%2Fimage-b57dd472-cd3a-419f-85fd-a5786b23944f.jpeg&w=96&q=75",
+            img: temur,
             title: t("comments.cardFive.name"),
             text1: t("comments.cardFive.profession"),
             text2: t("comments.cardFive.text"),
-        },
-        {
-            img: "https://dynamicsoft.uz/_next/image?url=https%3A%2F%2Fapi.dynamicsoft.uz%2Fv1%2Ffile%2Freviews%2Fimage-b57dd472-cd3a-419f-85fd-a5786b23944f.jpeg&w=96&q=75",
-            title: t("comments.cardSix.name"),
-            text1: t("comments.cardSix.profession"),
-            text2: t("comments.cardSix.text"),
         },
 
     ]
