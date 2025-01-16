@@ -9,6 +9,7 @@ import jamshid from "../../assets/images/Jamshid.jpg"
 import muhammad from "../../assets/images/muhammad.jpg"
 import temur from "../../assets/images/temur.jpg"
 import backend from "../../assets/images/backend.jpg"
+import mustafa from "../../assets/images/mustafa.jpg"
 
 import 'swiper/css/grid';
 import 'swiper/css/pagination';
@@ -18,16 +19,16 @@ const Comments: React.FC = () => {
     
     const comments = [
         {
+            img: mustafa,
+            title: t("comments.cardSix.name"),
+            text1: t("comments.cardSix.profession"),
+            text2: t("comments.cardSix.text"),
+        },
+        {
             img: muhammad,
             title: t("comments.cardOne.name"),
             text1: t("comments.cardOne.profession"),
             text2: t("comments.cardOne.text"),
-        },
-        {
-            img: "https://dynamicsoft.uz/_next/image?url=https%3A%2F%2Fapi.dynamicsoft.uz%2Fv1%2Ffile%2Freviews%2Fimage-b57dd472-cd3a-419f-85fd-a5786b23944f.jpeg&w=96&q=75",
-            title: t("comments.cardSix.name"),
-            text1: t("comments.cardSix.profession"),
-            text2: t("comments.cardSix.text"),
         },
         {
             img: backend,
