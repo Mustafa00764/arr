@@ -60,14 +60,14 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                     <div className='footer_bottom'>
-                        <p className='footer_bottom_text'>© Copyright Dynamic Soft</p>
+                        <p className='footer_bottom_text'>© Copyright Ardent Soft</p>
                         <div className="footer_bottom_info">
                             <img src={location} alt="" />
-                            <p>Tashkent, Sagʻbon 37/1</p>
+                            <p>Urgench, DATA</p>
                         </div>
                         <div className="footer_bottom_info">
                             <img src={email} alt="" />
-                            <p>info@dynamicsoft.uz</p>
+                            <p>info@ardentsoft.uz</p>
                         </div>
                         <div className="footer_bottom_info">
                             <img src={icon_phone} alt="" />

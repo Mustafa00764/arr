@@ -7,7 +7,7 @@ const FormSection: React.FC = () => {
     const { t } = useTranslation();
     
   return (
-    <div className='form_section'>
+    <div className='form_section' id='form'>
         <div className="container">
             <div className='form_section_container'>
                 <div className='form_section_info'>

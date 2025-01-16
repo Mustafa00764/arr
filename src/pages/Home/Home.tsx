@@ -3,7 +3,7 @@ import "./home.css"
 import title_underline from "../../assets/svg/title-underline.svg"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper/modules";
-import img from "../../assets/images/img.webp"
+// import img from "../../assets/images/img.webp"
 import icon from "../../assets/images/icon.webp"
 import design from "../../assets/svg/design.svg"
 import mobile_app from "../../assets/svg/mobile-app.svg"
@@ -19,71 +19,87 @@ import innovation_logo from "../../assets/svg/innovation_logo.svg"
 import speed_logo from "../../assets/svg/speed_logo.svg"
 import transparency_logo from "../../assets/svg/transparency_logo.svg"
 import { useTranslation } from "react-i18next";
+
+
+import img1 from "../../assets/images/img1.png"
+import img2 from "../../assets/images/img2.png"
+import img3 from "../../assets/images/img3.png"
+import img4 from "../../assets/images/img4.png"
+import img5 from "../../assets/images/img5.png"
+import img6 from "../../assets/images/img6.png"
+import img7 from "../../assets/images/img7.png"
+import img8 from "../../assets/images/img8.png"
+import img9 from "../../assets/images/img9.png"
+import img11 from "../../assets/images/img11.png"
 // Стили Swiper
 import "../../i18n";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import FormSection from '../../elements/form/form';
 import Comments from '../../elements/comments/comments';
+import { Link } from 'react-router-dom';
 const HomePage: React.FC = () => {
     const { t } = useTranslation();
 
     const slides = [
         {
-          title: "Education",
-          description:
-            "Приложение для новостей о технологиях и IT от WeProject, одного из крупнейших новостных агентств Центральной Азии. Будьте в курсе последни...",
-          image: img,
-          icon: icon,
-        },
-        {
-          title: "Business",
-          description:
-          "Приложение для новостей о технологиях и IT от WeProject, одного из крупнейших новостных агентств Центральной Азии. Будьте в курсе последни...",
-          image: img,
-          icon: icon,
-        },
-        {
-          title: "ERP",
-          description:
-          "Приложение для новостей о технологиях и IT от WeProject, одного из крупнейших новостных агентств Центральной Азии. Будьте в курсе последни...",
-          image: img,
-          icon: icon,
-        },
-        {
-          title: "Extra",
-          description: "Приложение для новостей о технологиях и IT от WeProject, одного из крупнейших новостных агентств Центральной Азии. Будьте в курсе последни...",
-          image: img,
-          icon: icon,
-        },
-        {
-            title: "Business",
-            description: 
-            "Приложение для новостей о технологиях и IT от WeProject, одного из крупнейших новостных агентств Центральной Азии. Будьте в курсе последни...",
-            image: img,
+            id: 1,
+            title: "Education",
+            description: t("portfolioPage.portfolioCard.text1"),
+            image: img1,
+            img1: img5,
+            img2: img6,
+            img3: img7,
             icon: icon,
-
           },
           {
+              id: 2,
+              title: "Education",
+              description: t("portfolioPage.portfolioCard.text2"),
+              image: img8,
+              img1: img2,
+              img2: img3,
+              img3: img4,
+              icon: icon,
+          },
+          {
+            id: 3,
             title: "ERP",
-            description:
-            "Приложение для новостей о технологиях и IT от WeProject, одного из крупнейших новостных агентств Центральной Азии. Будьте в курсе последни...",
-            image: img,
+            description: t("portfolioPage.portfolioCard.text3"),
+            image: img11,
+            img1: img9,
+            img2: "",
+            img3: "",
             icon: icon,
-
           },
           {
-            title: "Extra",
-            description: "Приложение для новостей о технологиях и IT от WeProject, одного из крупнейших новостных агентств Центральной Азии. Будьте в курсе последни...",
-
-            image: img,
+            id: 1,
+            title: "Education",
+            description: t("portfolioPage.portfolioCard.text1"),
+            image: img1,
+            img1: img5,
+            img2: img6,
+            img3: img7,
             icon: icon,
-
           },
           {
-            title: "Extra",
-            description: "Приложение для новостей о технологиях и IT от WeProject, одного из крупнейших новостных агентств Центральной Азии. Будьте в курсе последни...",
-            image: img,
+              id: 2,
+              title: "Education",
+              description: t("portfolioPage.portfolioCard.text2"),
+              image: img8,
+              img1: img2,
+              img2: img3,
+              img3: img4,
+              icon: icon,
+          },
+          {
+            id: 3,
+            title: "ERP",
+            description: t("portfolioPage.portfolioCard.text3"),
+            image: img11,
+            img1: img9,
+            img2: "",
+            img3: "",
             icon: icon,
           },
     ];
@@ -163,10 +179,14 @@ const HomePage: React.FC = () => {
                     {/* <img className='main_banner_vector' src={main_banner_vector} alt="main_banner_vector" /> */}
                     <h1>{t("homePage.sectionOne.title")}</h1>
                     <div className='section_one_btns'>
-                        <button className='section_one_btn1'>{t("homePage.sectionOne.buttonOne")}</button>
-                        <button className='section_one_btn2'>
-                            <p>{t("homePage.sectionOne.buttonTwo")}</p>
-                        </button>
+                        <a href="#form">
+                            <button className='section_one_btn1'>{t("homePage.sectionOne.buttonOne")}</button>
+                        </a>
+                        <Link to={"/portfolio"}>
+                            <button className='section_one_btn2'>
+                                <p>{t("homePage.sectionOne.buttonTwo")}</p>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

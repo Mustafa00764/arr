@@ -197,7 +197,9 @@
     "portfolioPage": {
         "name": "Portfolio",
         "portfolioCard": {
-            "text": "Dynamic Soft crafted a seamless online ordering platform for Uzbekistan's fast food leader, 707 Food, enhancing both customer experience a...",
+            "text1": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company 707 Food, enhancing customer experience and operational efficiency.",
+            "text2": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company Tsukiyomi, enhancing customer experience and operational efficiency.",
+            "text3": "Ardent Soft created a seamless online ordering platform for Khorezm's leading construction company Elithouse, enhancing customer experience and operational efficiency.",
             "button": "View more"
         }
     },
@@ -231,9 +233,9 @@
     },
     "informationPage": {
         "name": "ABOUT THE PROJECT",
-        "text1": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, 707 Food, enhancing customer experience and operational efficiency.",
-        "text2": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, Tsukiyomi, enhancing customer experience and operational efficiency.",
-        "text3": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, Elithouse, enhancing customer experience and operational efficiency.",
+        "text1": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company 707 Food, enhancing customer experience and operational efficiency.",
+        "text2": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company Tsukiyomi, enhancing customer experience and operational efficiency.",
+        "text3": "Ardent Soft created a seamless online ordering platform for Khorezm's leading construction company Elithouse, enhancing customer experience and operational efficiency.",
         "sectionOne": {
             "name": "OUR PROCESS",
             "card1": {

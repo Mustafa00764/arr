@@ -374,6 +374,12 @@
     align-items: end;
 }
 
+.slider_card_img img{
+    max-height: 250px;
+    width: 400px;
+    object-fit: contain;
+}
+
 .slider_card_description{
     color: var(--text-color);
     font-size: 12px;
@@ -382,6 +388,7 @@
     letter-spacing: .54px;
     width: 171px;
     margin-top: 17px;
+    object-fit: cover;
     font-family: Poppins, sans-serif;
 }
 
