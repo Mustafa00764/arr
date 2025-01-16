@@ -471,6 +471,7 @@
 
     .slider_card_logo_img{
         display: flex;
+        object-fit: contain;
         height: 120px;
     }
 
