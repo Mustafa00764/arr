@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
                         </div>
                         <div className="footer_bottom_info">
                             <img src={icon_phone} alt="" />
-                            <p>+998 78 555 70 17</p>
+                            <p>+998 88 360 16 56</p>
                         </div>
                         <div className="footer_bottom_info">
                             <img src={linkedin} alt="" />

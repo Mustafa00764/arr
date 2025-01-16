@@ -19,7 +19,7 @@ const FormSection: React.FC = () => {
                                 <img src={phone} alt="phone" />
                             </div>
                         </div>
-                        <h1 className='form_section_number'>+998 78 555 70 17</h1>
+                        <h1 className='form_section_number'>+998 88 360 16 56</h1>
                     </div>
                 </div>
                 <form>
@@ -41,7 +41,7 @@ const FormSection: React.FC = () => {
                                 <img src={phone} alt="phone" />
                             </div>
                         </div>
-                        <h1 className='form_section_number'>+998 78 555 70 17</h1>
+                        <h1 className='form_section_number'>+998 88 360 16 56</h1>
                     </div>
                 </div>
             </div>

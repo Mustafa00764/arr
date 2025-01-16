@@ -48,7 +48,7 @@ const ContactPage: React.FC = () => {
                                 <img src={phone} alt="phone" />
                             </div>
                         </div>
-                        <p className='contact_info_phone_text'>+998 78 555 70 17</p>
+                        <p className='contact_info_phone_text'>+998 88 360 16 56</p>
                     </div>
                     <div className='contact_info_home'>
                         <div className='contact_info_home_icon'>

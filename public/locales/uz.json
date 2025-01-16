@@ -18,7 +18,7 @@
         "sectionTwo": {
             "elementOne": {
                 "title": {
-                    "text1": "40",
+                    "text1": "10",
                     "text2": "+"
                 },
                 "text": "tugallangan loyihalar"
@@ -149,7 +149,7 @@
             "text": "Jamoamizning Frontend rivojlantirish bo'yicha mutaxassisi. Zamonaviy va foydalanuvchiga qulay interfeyslarni yaratishda yetakchi o'rinni egallaydi. Uning HTML, CSS va JavaScript bo'yicha mukammal bilimlari har bir loyihaga yangi nafas bag'ishlaydi."
         },
         "cardTwo": {
-            "name": "Ozodbek Xolturayev",
+            "name": "Xudoyberganov Mirzohid",
             "profession": "Backend Dasturchisi",
             "text": "Backend rivojlantirish sohasida professionallik namunasi. Jamoamizda server tomonida yuqori xavfsizlik va mustahkamlikni ta'minlaydi. Ma'lumotlar bazalari va API integratsiyasi bo'yicha keng tajribaga ega."
         },
@@ -196,7 +196,7 @@
     "portfolioPage": {
         "name": "Loyihalar",
         "portfolioCard": {
-            "text1": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Feed Up uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
+            "text1": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi 707 Food uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
             "text2": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Tsukiyomi uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
             "text3": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Elithouse uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
             "button": "Batafsil"
@@ -232,7 +232,7 @@
     },
     "informationPage": {
         "name": "LOYIHA HAQIDA",
-        "text1": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Feed Up uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
+        "text1": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi 707 Food uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
         "text2": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Tsukiyomi uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
         "text3": "Ardent Soft, O'zbekistonning yetakchi fast food kompaniyasi Elithouse uchun muammosiz onlayn buyurtma platformasini yaratdi va mijozlarning tajribasini, operatsion samaradorligini oshirdi.",
         "sectionOne": {

@@ -18,7 +18,7 @@
         "sectionTwo": {
             "elementOne": {
                 "title": {
-                    "text1": "40",
+                    "text1": "10",
                     "text2": "+"
                 },
                 "text": "completed projects"
@@ -150,7 +150,7 @@
             "text": "Our team's frontend development specialist. A leader in creating modern and user-friendly interfaces. His excellent knowledge of HTML, CSS, and JavaScript brings new life to every project."
         },
         "cardTwo": {
-            "name": "Ozodbek Xolturayev",
+            "name": "Xudoyberganov Mirzohid",
             "profession": "Backend Developer",
             "text": "A paragon of professionalism in backend development. Ensures high security and stability on the server side in our team. Possesses extensive experience in databases and API integration."
         },
@@ -197,7 +197,7 @@
     "portfolioPage": {
         "name": "Portfolio",
         "portfolioCard": {
-            "text": "Dynamic Soft crafted a seamless online ordering platform for Uzbekistan's fast food leader, Feed Up, enhancing both customer experience a...",
+            "text": "Dynamic Soft crafted a seamless online ordering platform for Uzbekistan's fast food leader, 707 Food, enhancing both customer experience a...",
             "button": "View more"
         }
     },
@@ -231,7 +231,7 @@
     },
     "informationPage": {
         "name": "ABOUT THE PROJECT",
-        "text1": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, Feed Up, enhancing customer experience and operational efficiency.",
+        "text1": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, 707 Food, enhancing customer experience and operational efficiency.",
         "text2": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, Tsukiyomi, enhancing customer experience and operational efficiency.",
         "text3": "Ardent Soft created a seamless online ordering platform for Uzbekistan's leading fast food company, Elithouse, enhancing customer experience and operational efficiency.",
         "sectionOne": {
