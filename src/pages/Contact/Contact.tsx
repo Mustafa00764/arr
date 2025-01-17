@@ -1,6 +1,7 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import "./contact.css"
+import { LatLngExpression } from 'leaflet'; // Импортируем тип для позиции
+import "./contact.css";
 import 'leaflet/dist/leaflet.css';
 import title_underline from "../../assets/svg/title-underline.svg"
 import phone from "../../assets/svg/phone.svg"
@@ -8,7 +9,7 @@ import { useTranslation } from "react-i18next";
 import "../../i18n";
 const ContactPage: React.FC = () => {
     const { t } = useTranslation();
-    const position = [51.505, -0.09]; // координаты центра карты
+    const position:LatLngExpression = [51.505, -0.09];
 
 
   return (
