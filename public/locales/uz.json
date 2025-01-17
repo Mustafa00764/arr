@@ -18,21 +18,21 @@
         "sectionTwo": {
             "elementOne": {
                 "title": {
-                    "text1": "10",
+                    "text1": "8",
                     "text2": "+"
                 },
                 "text": "tugallangan loyihalar"
             },
             "elementTwo": {
                 "title": {
-                    "text1": "80K",
+                    "text1": "1K",
                     "text2": "+"
                 },
                 "text": "umumiy foydalanuvchilar"
             },
             "elementThree": {
                 "title": {
-                    "text1": "5",
+                    "text1": "1",
                     "text2": "MVP"
                 },
                 "text": "Start uplar uchun"
@@ -46,7 +46,7 @@
             },
             "elementFive": {
                 "title": {
-                    "text1": "37K",
+                    "text1": "1K",
                     "text2": "$"
                 },
                 "text": "Biz xizmat ko'rsatgan bizneslarni umumiy bahosi"
@@ -124,8 +124,8 @@
         }
     },
     "formElement": {
-        "title": "Sizda amalga oshirish uchun g'oyangiz bormi? Keling, bu haqda suhbatlashamiz!",
-        "text": "Yoki Bizga qo'ng'iroq qiling",
+        "title": "Orzularingizni amalga oshirishga tayyormisiz? Biz siz bilan fikr almashishga tayyormiz! Gaplashamizmi?",
+        "text": "Yoki shunchaki qo‘ng‘iroq",
         "form": {
             "name":  {
                 "text": "Ism",

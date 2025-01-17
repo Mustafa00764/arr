@@ -1,24 +1,15 @@
-import React from 'react'
+import React from "react";
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import "./contact.css"
+import 'leaflet/dist/leaflet.css';
 import title_underline from "../../assets/svg/title-underline.svg"
 import phone from "../../assets/svg/phone.svg"
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 const ContactPage: React.FC = () => {
     const { t } = useTranslation();
+    const position = [51.505, -0.09]; // координаты центра карты
 
-    const containerStyle = {
-        width: "100%", 
-        height: "200px", 
-        borderRadius: "48px", 
-        overflow: "hidden",
-    };
-    
-    const center = {
-        lat: 41.3389, 
-        lng: 69.3346, 
-    };
 
   return (
     <div className='contact'>
@@ -67,15 +58,17 @@ const ContactPage: React.FC = () => {
                         <p className='contact_info_email_text'>info@ardentsoft.uz</p>
                     </div>
                     <div className='contact_info_map'>
-                        <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
-                            <GoogleMap
-                                mapContainerStyle={containerStyle}
-                                center={center}
-                                zoom={15} // Масштаб карты
-                            >
-                                <Marker position={center} />
-                            </GoogleMap>
-                        </LoadScript>
+                        <MapContainer center={position} zoom={13} style={{ height: "255px", width: "100%", borderRadius: "48px" }}>
+                            <TileLayer
+                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                            />
+                            <Marker position={position}>
+                                <Popup>
+                                    Hello, World!
+                                </Popup>
+                            </Marker>
+                        </MapContainer>
                     </div>
                 </div>
             </div>

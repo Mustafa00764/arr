@@ -18,21 +18,21 @@
         "sectionTwo": {
             "elementOne": {
                 "title": {
-                    "text1": "10",
+                    "text1": "8",
                     "text2": "+"
                 },
                 "text": "completed projects"
             },
             "elementTwo": {
                 "title": {
-                    "text1": "80K",
+                    "text1": "1K",
                     "text2": "+"
                 },
                 "text": "total users"
             },
             "elementThree": {
                 "title": {
-                    "text1": "5",
+                    "text1": "1",
                     "text2": "MVP"
                 },
                 "text": "for startups"
@@ -46,7 +46,7 @@
             },
             "elementFive": {
                 "title": {
-                    "text1": "37K",
+                    "text1": "1K",
                     "text2": "$"
                 },
                 "text": "total business value managed"
@@ -125,8 +125,8 @@
         }
     },
     "formElement": {
-        "title": "Do you have an idea to bring to life? Let's discuss it!",
-        "text": "Or call us",
+        "title": "Are you ready to make your dreams come true? We are ready to share ideas with you! Shall we talk?",
+        "text": "Or just a call",
         "form": {
             "name": {
                 "text": "Name",
